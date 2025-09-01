@@ -38,7 +38,30 @@ This is a simple admin dashboard built using **React**. It includes a login page
 ```bash
 git clone <https://github.com/DhruvSangwan/react-admin/>
 cd react-admin
-npm install
-npm run dev 
+```
 
-  
+### Install dependencies
+```
+npm install
+```
+### Start the Development Server 
+```
+npm run dev 
+```
+## How the Project Was Built
+
+- Set up using **Vite** for fast bundling and hot reload
+- Functional **React components** with hooks (`useState`, `useEffect`)
+- Flexbox layout for responsive dashboard (sidebar + main content)
+- Local state management for:
+  - Users list
+  - Edit modal
+  - Search and pagination
+  - Dark mode and settings
+- Toast notifications for user feedback
+- Components structure:
+  - `Dashboard.jsx` → Main layout
+  - `Sidebar.jsx` & `Header.jsx` → Navigation and header
+  - `Users.jsx` → Users table, search, pagination, edit modal
+  - `Settings.jsx` → Dark mode and preferences
+  - `Login.jsx` → Authentication
