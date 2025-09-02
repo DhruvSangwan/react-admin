@@ -36,7 +36,7 @@ This is a simple admin dashboard built using **React**. It includes a login page
 ### Clone the repository
 
 ```bash
-git clone <https://github.com/DhruvSangwan/react-admin/>
+git clone https://github.com/DhruvSangwan/react-admin/
 cd react-admin
 ```
 
@@ -48,6 +48,10 @@ npm install
 ```
 npm run dev 
 ```
+## Mock Credentials:
+Email: admin@example.com 
+Password: admin123
+
 ## How the Project Was Built
 
 - Set up using **Vite** for fast bundling and hot reload
