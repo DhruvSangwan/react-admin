@@ -37,11 +37,12 @@ This is a simple admin dashboard built using **React**. It includes a login page
 
 ```bash
 git clone https://github.com/DhruvSangwan/react-admin/
-cd react-admin
+
 ```
 
 ### Install dependencies
 ```
+cd react-admin
 npm install
 ```
 ### Start the Development Server 
